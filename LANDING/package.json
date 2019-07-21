@@ -1,0 +1,11 @@
+{
+  "name": "@punksnotdev/landing",
+  "version": "0.0.1",
+  "description": "",
+  "main": "LANDING.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "furenku",
+  "license": "GPL-3.0-or-later"
+}
