@@ -4,9 +4,12 @@ services:
     container_name: www
     restart: always
     build: ./
+    # build:
+      # context: ./
     ports:
       - "80:80"
     volumes:
-      - /home/furenku/Music/punksnotdev/WWW/LANDING:/usr/share/nginx/html
+      - ./LANDING:/usr/share/nginx/html
+
 volumes:
   LANDING:
